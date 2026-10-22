@@ -68,10 +68,7 @@ hr { border-color:#e3e9f1; }
 # -----------------------------
 # File Paths
 # -----------------------------
-DATA_PATH = Path(
-    "/content/drive/MyDrive/customer-churn-prediction/"
-    "customer_churn_prediction.csv"
-)
+DATA_PATH = Path("customer_churn_prediction.csv")
 
 MODEL_PATH = Path("/content/best_churn_model.pkl")
 FEATURES_PATH = Path("/content/model_features.pkl")
