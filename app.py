@@ -70,8 +70,8 @@ hr { border-color:#e3e9f1; }
 # -----------------------------
 DATA_PATH = Path("customer_churn_prediction.csv")
 
-MODEL_PATH = Path("/content/best_churn_model.pkl")
-FEATURES_PATH = Path("/content/model_features.pkl")
+MODEL_PATH = Path(__file__).parent / "best_churn_model.pkl"
+FEATURES_PATH = Path(__file__).parent / "model_features.pkl"
 
 
 # -----------------------------
